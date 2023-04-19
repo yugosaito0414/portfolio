@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Car Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4JT80W6ZHZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4JT80W6ZHZ');
+</script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="resize" src="photos/logos/tshirt_logo.png"></a>
+            <div class="nav-links" id="navLinks" >
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us!</h1>
+  
+
+    </section>
+
+<!---------contact us ----->
+<section class="location">
+
+<iframe src="https://www.google.com
+/maps/embed?pb=!1m18!1m12!1m3!1d3255.
+390480538219!2d139.44682361527944!3d35.
+32112375724425!2m3!1f0!2f0!3f0!3m2!1i1024!
+2i768!4f13.1!3m3!1m2!1s0x60184e0b178c09e9%3A0x
+5d9643164822cd21!2z6L675aCC5rW35rWc5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1661048045615!
+5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" 
+loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>3-45-1 Tsujido, Fujisawa City,</h5>
+                    <p>Kanagawa, Japan, 251-0042</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>(080)-7654-9898</h5>
+                    <p>Monday to Friday, 9am to 5pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>yugosaito0414@gmail.com</h5>
+                    <p>Email us your quaries!</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="10" name="message" placeholder="Messages" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!---------Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is owned by Yugo Saito</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!---------javascript----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
